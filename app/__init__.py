@@ -19,7 +19,7 @@ def create_app(config_class=Config):
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "https://*.vercel.app",
-        "https://your-app-name.vercel.app"
+        "https://chat-app-front-end-five-lime.vercel.app/"
     ]
     
     CORS(app, resources={
